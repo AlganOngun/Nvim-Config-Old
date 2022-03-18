@@ -7,4 +7,4 @@ vim.opt.smartindent = true
 vim.opt.pumheight = 5
 vim.opt.relativenumber = true
 
-vim.cmd([[colorscheme tokyonight]])
+vim.cmd [[colorscheme gruvbox-baby]]
