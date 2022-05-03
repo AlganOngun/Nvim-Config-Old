@@ -19,13 +19,9 @@ dashboard.section.header.val = {
 
 -- Set menu
 dashboard.section.buttons.val = {
-    dashboard.button( "e", "  > New file" , ":ene <BAR> startinsert <CR>"),
-    dashboard.button( "d", "  > Discover" , ":e .<CR>"),
-    --dashboard.button( "f", "  > Find file", ":cd $HOME/Workspace | Telescope find_files<CR>"),
-    --dashboard.button( "r", "  > Recent"   , ":Telescope oldfiles<CR>"),
     dashboard.button( "s", "  > Settings" , ":e ~/.config/nvim/lua/user/options.lua<CR>"),
+    dashboard.button( "k", "  > Keymaps" , ":e ~/.config/nvim/lua/user/keymaps.lua<CR>"),
     dashboard.button( "q", "  > Quit", ":qa<CR>"),
-    dashboard.button( "v", "  > Vim Config", ":e ~/.config/nvim/init.lua<CR>"),
 }
 
 -- Set footer
