@@ -110,11 +110,6 @@ _G.packer_plugins = {
     path = "/home/algan/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  neoformat = {
-    loaded = true,
-    path = "/home/algan/.local/share/nvim/site/pack/packer/start/neoformat",
-    url = "https://github.com/sbdchd/neoformat"
-  },
   neon = {
     loaded = true,
     path = "/home/algan/.local/share/nvim/site/pack/packer/start/neon",

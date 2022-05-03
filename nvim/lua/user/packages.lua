@@ -49,5 +49,4 @@ require('packer').startup(function()
 		commit = "d88094fbfd84b297178252230f6faf0e7d2f7650",
         requires = {{'nvim-lua/plenary.nvim'}}
     }
-    use 'sbdchd/neoformat'
 end)
