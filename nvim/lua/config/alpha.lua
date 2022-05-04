@@ -20,7 +20,8 @@ dashboard.section.header.val = {
 -- Set menu
 dashboard.section.buttons.val = {
     dashboard.button( "s", "  > Settings" , ":e ~/.config/nvim/lua/user/options.lua<CR>"),
-    dashboard.button( "k", "  > Keymaps" , ":e ~/.config/nvim/lua/user/keymaps.lua<CR>"),
+    dashboard.button( "o", "  > Keymaps" , ":e ~/.config/nvim/lua/user/keymaps.lua<CR>"),
+    dashboard.button( "a", "  > Alacritty Config" , ":e ~/.config/alacritty/alacritty.yml<CR>"),
     dashboard.button( "q", "  > Quit", ":qa<CR>"),
 }
 
